@@ -24,7 +24,7 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Build') { 
             steps {
                 echo 'Installing Python dependencies'
 
